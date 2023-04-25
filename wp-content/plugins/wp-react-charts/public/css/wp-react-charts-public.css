@@ -1,0 +1,16 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .widget-card{
+	width: 100%;
+}
+.widget-card-header{
+	padding: 10px 10px;
+}
+.float-right-widget{
+	float: right;
+}
+.widget-card-body{
+	flex: 1 1 auto;
+}

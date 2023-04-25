@@ -1,0 +1,23 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .widget-card{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.widget-card .widget-card-header{
+    padding: 10px 10px;
+}
+.widget-card .widget-card-header span{
+    font-size: 18px
+}
+.widget-card .widget-card-header .float-right-widget{
+    float: right;
+}
+.widget-card .widget-card-body{
+    flex: 1 1 auto;
+}
